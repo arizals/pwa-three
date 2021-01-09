@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Submission 2" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>La Liga Info</title>
+  <link rel="stylesheet" href="/css/materialize.min.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="icon" href="/images/laliga-96.png" />
+  <link rel="apple-touch-icon" href="/images/laliga-192.png" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#0d47a1" />
+</head>
+
+<body>
+  <!-- Navigasi -->
+  <nav class="blue darken-4" role="navigation">
+    <div class="nav-wrapper container">
+      <a href="#" class="brand-logo" id="logo-container">La Liga</a>
+      <a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
+      <ul class="topnav right hide-on-med-and-down"></ul>
+      <ul class="sidenav" id="nav-mobile"></ul>
+    </div>
+  </nav>
+  <!-- Akhir Navigasi -->
+
+  <div class="container" id="body-content"></div>
+
+  <footer class="page-footer transparent center-align">
+    <div class="footer-copyright transparent">
+      <div class="container">
+        <span class="black-text">
+          ©
+          <script type="text/JavaScript">
+            document.write(new Date().getFullYear());
+            </script>
+          - La Liga. All Rights Reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/materialize.min.js"></script>
+  <script src="/js/nav.js"></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/idb.js"></script>
+  <script src="/js/db.js"></script>
+  <script src="/js/laligadata.js"></script>
+  <script src="/js/register-service-worker.js"></script>
+</body>
+
+</html>
